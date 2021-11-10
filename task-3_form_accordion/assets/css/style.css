@@ -1,0 +1,163 @@
+#section {
+  padding: 98px 0;
+  background: #fafafa;
+}
+
+#section .container .row .col-6 .heading_section {
+  font-size: 28px;
+  color: #000;
+  padding-bottom: 24px;
+  margin-bottom: 48px;
+}
+
+#section .container .row .col-6 .accordion {
+  border-radius: 5px;
+}
+
+#section .container .row .col-6 .accordion .special {
+  position: relative;
+  z-index: 10;
+  background: #866ec7;
+  padding: 48px 24px 24px 24px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#section .container .row .col-6 .accordion .special .our {
+  line-height: 1.5;
+  font-weight: 400;
+  color: #fff;
+  font-size: 28px;
+}
+
+#section .container .row .col-6 .accordion .card {
+  border: 0;
+}
+
+#section .container .row .col-6 .accordion .card .card_header {
+  position: relative;
+  z-index: 10;
+}
+
+#section .container .row .col-6 .accordion .card .card_header .collapsed {
+  width: 100%;
+  font-weight: normal;
+  color: #000;
+  font-size: 18px;
+  -webkit-box-shadow: 0px 8px 18px -16px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 18px -16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border: 1px solid transparent;
+  background-color: #fff;
+}
+
+#section .container .row .col-6 .accordion .card .card_header .collapsed p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+  position: relative;
+}
+
+#section .container .row .col-6 .accordion .card .card_header .collapsed p::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #feba2c;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#section .container .row .col-6 .accordion .card .card_header .collapsed p span img {
+  width: 36px;
+  margin-right: 20px;
+  position: relative;
+}
+
+#section .container .row .col-6 .accordion .card .card_header .collapsed i {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#section .container .row .col-6 .accordion .card .collapse {
+  display: block;
+  z-index: -2;
+  margin-top: -478px;
+  background: rgba(0, 0, 0, 0.02);
+  padding: 48px 24px;
+  -webkit-box-shadow: 0px 10px 29px -16px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 29px -16px rgba(0, 0, 0, 0.2);
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body:last-child .menus {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus {
+  width: 100%;
+  padding: 0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus .menus_image {
+  width: 100px;
+  height: 100px;
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus .menus_image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus .text {
+  width: calc(100% - 100px);
+  padding-left: 20px;
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus .text div .one_half {
+  width: calc(100% - 110px);
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus .text div .one_half h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: gray;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus .text div .one_forth {
+  width: 110px;
+  text-align: right;
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus .text div .one_forth span {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  line-height: 1.3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-bottom: 2px solid #feba2c;
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus .text p {
+  margin: 0;
+}
+
+#section .container .row .col-6 .accordion .card .collapse .card_body .menus .text p span {
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.4);
+}
+/*# sourceMappingURL=style.css.map */
